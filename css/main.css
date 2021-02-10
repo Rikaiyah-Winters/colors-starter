@@ -73,12 +73,16 @@ footer {
 
   #column-3 {
     background-color: #e5f993;
+    width: 100%; /*We are making this 100% instead of 50% to avoid an empty space.*/
   }
 
   footer {
     background-color: #69a197;
   }
   
+  .col-3 {
+    width: 50%; /*Under the tablet media query, we change the columns' width to 50% to make them half-width.*/
+  }
 }
 
 
@@ -98,10 +102,14 @@ footer {
 
   #column-3 {
     background-color: #e39695;
+    width: 33.3%; /*Not sure why I had to put 33.3% here if they're all equal?*/
   }
 
   footer {
     background-color: #e4b1ab;
   }
    
+  .col-3 {
+    width: 33.3%; /*This makes the columns one-third wdith*/
+  }
 }
